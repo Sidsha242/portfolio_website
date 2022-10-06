@@ -1,0 +1,203 @@
+.container-fluid {
+    padding-top: 2%;
+    padding-left: 10%;
+}
+#title{
+    background-color: DBE2EF;
+}
+#title-row{
+    padding-top: 225px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+}
+.navbar-brand {
+    font-family: 'Ms Madi', cursive;
+    color: #4B0082 !important;
+    font-size: 40px !important;
+    font-weight: bold;
+}
+.navbar-nav {
+    margin-left: 150px;
+}
+.nav-item {
+    margin-left: 50px;
+}
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold !important;
+    color: #4B0082 !important;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 75px !important;
+}
+.header {
+    padding-top: 40px;
+}
+.title-image{
+    width:85%;
+}
+#about{
+    background-color: #C3F8FF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.profile-pic {
+    width:20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h2{
+    font-family: 'Ms Madi', cursive;
+    color: #4B0082 !important;
+    font-size: 50px !important;
+    padding-top: 10px;
+}
+.about-info{
+    background-color: #3F72AF ;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left:20px;
+    padding-right: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+#projects {
+    background-color: purple;
+    height: 635px;
+}
+.proj-pic{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.project-pic{
+    width: 45%;
+    height: 45%;
+    object-fit: contain;
+    border-radius: 20px;
+}
+#plans{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+h3 {
+    font-weight: bold !important;
+}
+#plans-row{
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#contact{
+    font-family: 'Roboto', sans-serif;
+}
+form{
+    background-color: #C3F8FF;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px;
+    border-radius: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+form input,form textarea{
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline:none;
+    font-size: 16px;
+    background-color:  white;
+    border-radius: 10px;
+}
+form input{
+    height: 50px;
+}
+form button{
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-size:18px;
+    border:0;
+    outline: none;
+    width:150px;
+    margin:20px auto 0;
+    border-radius: 10px;
+}
+#links{
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: #112D4E;
+    color: white;
+    text-align: center;
+}
+.footer-link
+{
+    padding-left: 35px;
+}
+.links-details
+{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px)
+{
+    
+    .profile-pic {
+        width:40%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about-info{
+        background-color: #3F72AF ;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left:20px;
+        padding-right: 20px;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    #projects {
+        background-color: purple;
+        height: 450px;
+    }
+    .project-pic{
+        width: 65%;
+        height: 65%;
+        object-fit: contain;
+        border-radius: 20px;
+    }
+    form{
+        background-color: #C3F8FF;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+        border-radius: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    form input,form textarea{
+        border: 0;
+
+        padding: 20px;
+        outline:none;
+        font-size: 16px;
+        background-color:  white;
+        border-radius: 10px;
+    }
+}
