@@ -19,7 +19,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="styles_web2.css">
 
-     <!-- Font Awesome  -->
+    <!-- Font Awesome  -->
     <script src="https://kit.fontawesome.com/5b840f37de.js" crossorigin="anonymous"></script>
 
     <!--Bootstrap-->
@@ -54,7 +54,7 @@
                     <div class="navbar-collapse collapse" id="navbar">
                         <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href=".about-link">ABOUT</a>
+                                <a class="nav-link" href="#about-link">ABOUT</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#projects-link">PROJECTS</a>
@@ -90,7 +90,7 @@
 
     <!--About-->
     <section id="about">
-        <div class="about-link"> </div>
+        <div id="about-link"> </div>
         <h2>About</h2>
         <div class="parent">
             <img class="profile-pic" src="Images/profile_pic.png" alt="my-pic">
@@ -179,7 +179,7 @@
     <!--Contact-->
     <section id="contact-link">
         <div id="plans"> </div>
-        <form onsubmit="sendEmail(); reset(); return false;" >
+        <form onsubmit="sendEmail(); reset(); return false;">
             <h3>Get in touch</h3>
             <input type="text" id="name" placeholder="  Your Name" required>
             <input type="email" id="email" placeholder="  Email id" required>
@@ -191,21 +191,21 @@
         </div>
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
-            function sendEmail(){
-            Email.send({
-            Host: "smtp.gmail.com",
-            Username : "sdemail179@gmail.com",
-            Password : "4825908C4F9A1AD8295041545FCEEFC65446",
-            To : 'sdemail179@gmail.com',
-            From : document.getElementById("email").value,
-            Subject : "New Contact Form Enquiry",
-            Body : "Name: " + document.getElementById("name").value
-                    + "<br> Email: " + document.getElementById("email").value
-                    + "<br> PhoneNo: " + document.getElementById("phone").value
-                    + "<br> Message: " + document.getElementById("message").value
-            }).then(
-                message => alert("Message Sent Successfully")
-            ).catch((err)=>(console.log(err)));
+            function sendEmail() {
+                Email.send({
+                    Host: "smtp.gmail.com",
+                    Username: "sdemail179@gmail.com",
+                    Password: "4825908C4F9A1AD8295041545FCEEFC65446",
+                    To: 'sdemail179@gmail.com',
+                    From: document.getElementById("email").value,
+                    Subject: "New Contact Form Enquiry",
+                    Body: "Name: " + document.getElementById("name").value
+                        + "<br> Email: " + document.getElementById("email").value
+                        + "<br> PhoneNo: " + document.getElementById("phone").value
+                        + "<br> Message: " + document.getElementById("message").value
+                }).then(
+                    message => alert("Message Sent Successfully")
+                ).catch((err) => (console.log(err)));
             }
         </script>
 
@@ -216,20 +216,20 @@
     <!--Info-->
     <section id="links">
         <div class="links-details">
-        <a class="footer-link" href="www.linkedin.com/in/sidhant-sharma-4a449220a">
-        <i class="icon fa-brands fa-linkedin fa-2x"></i>
-        </a>
-        <a class="footer-link" href="https://github.com/Sidsha242">
-        <i class="icon fa-brands fa-github fa-2x"></i>
-        </a>
-        <a class="footer-link" href="">
-        <i class="icon fa-brands fa-instagram fa-2x"></i>
-        </a>
+            <a class="footer-link" href="www.linkedin.com/in/sidhant-sharma-4a449220a">
+                <i class="icon fa-brands fa-linkedin fa-2x"></i>
+            </a>
+            <a class="footer-link" href="https://github.com/Sidsha242">
+                <i class="icon fa-brands fa-github fa-2x"></i>
+            </a>
+            <a class="footer-link" href="">
+                <i class="icon fa-brands fa-instagram fa-2x"></i>
+            </a>
         </div>
         <div class="name">
-        <h3>  © Sidhant Sharma.</h3>
+            <h3> © Sidhant Sharma.</h3>
         </div>
-      </div>
+        </div>
     </section>
 
 

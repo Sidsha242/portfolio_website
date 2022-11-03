@@ -1,34 +1,42 @@
-html,body {
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
+
 .container-fluid {
     padding-top: 2%;
     padding-left: 10%;
 }
-#title{
+
+#title {
     background-color: DBE2EF;
 }
-#title-row{
-    padding-top: 225px;
-    padding-left: 150px;
-    padding-bottom: 50px;
+
+#title-row {
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
+
 .navbar-brand {
     font-family: 'Ms Madi', cursive;
     color: #4B0082 !important;
-    font-size: 40px !important;
+    font-size: 3.5vw !important;
     font-weight: bold;
 }
+
 .navbar-nav {
-    margin-left: 150px;
+    margin-left: 15%;
 }
+
 .nav-item {
-    margin-left: 50px;
+    margin-left: 9%;
 }
+
 .nav-link {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold !important;
@@ -37,40 +45,46 @@ html,body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 75px !important;
+    font-size: 6.5vw !important;
 }
+
 .header {
-    padding-top: 40px;
+    padding-top: 2%;
 }
-.title-image{
-    width:85%;
+
+.title-image {
+    width: 38vw;
 }
-#about{
+
+#about {
     background-color: #C3F8FF;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     text-align: center;
     padding-bottom: 50px;
-    
+
 }
+
 .profile-pic {
-    width:20%;
+    width: 20%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-h2{
+
+h2 {
     font-family: 'Ms Madi', cursive;
     color: #4B0082 !important;
     font-size: 50px !important;
     padding-top: 10px;
 }
-.about-info{
-    background-color: #3F72AF ;
+
+.about-info {
+    background-color: #3F72AF;
     margin-left: 200px;
     margin-right: 200px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left:20px;
+    padding-left: 20px;
     padding-right: 20px;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -78,37 +92,45 @@ h2{
     font-size: 20px;
     color: white;
 }
+
 #projects {
     background-color: purple;
     height: 635px;
 }
-.proj-pic{
+
+.proj-pic {
     padding-top: 30px;
     text-align: center;
     margin-bottom: 50px;
 }
-.project-pic{
+
+.project-pic {
     width: 45%;
     height: 45%;
     object-fit: contain;
     border-radius: 20px;
 }
-#plans{
+
+#plans {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
+
 h3 {
     font-weight: bold !important;
 }
-#plans-row{
+
+#plans-row {
     padding-top: 100px;
     padding-left: 20px;
     padding-right: 20px;
 }
-#contact{
+
+#contact {
     font-family: 'Roboto', sans-serif;
 }
-form{
+
+form {
     background-color: #C3F8FF;
     display: flex;
     flex-direction: column;
@@ -117,74 +139,82 @@ form{
     margin-left: 40px;
     margin-right: 40px;
 }
-form input,form textarea{
+
+form input,
+form textarea {
     border: 0;
     margin: 10px 0px;
     padding: 20px;
-    outline:none;
+    outline: none;
     font-size: 16px;
-    background-color:  white;
+    background-color: white;
     border-radius: 10px;
 }
-form input{
+
+form input {
     height: 50px;
 }
-form button{
+
+form button {
     padding: 15px;
     background-color: blue;
     color: white;
-    font-size:18px;
-    border:0;
+    font-size: 18px;
+    border: 0;
     outline: none;
-    width:150px;
-    margin:20px auto 0;
+    width: 150px;
+    margin: 20px auto 0;
     border-radius: 10px;
 }
-#links{
+
+#links {
     margin-top: 30px;
     padding-top: 20px;
     background-color: #112D4E;
     color: white;
     text-align: center;
 }
-.footer-link
-{
+
+.footer-link {
     padding-left: 35px;
 }
-.links-details
-{
+
+.links-details {
     padding-bottom: 20px;
 }
-.name{
+
+.name {
     padding-left: 25px;
 }
 
-@media screen and (max-width: 600px)
-{
+@media screen and (max-width: 600px) {
+
+    .navbar-brand {
+        font-size: 7.5vw !important;
+    }
 
     h1 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 55px !important;
+        font-size: 9.5vw !important;
     }
-    #title-row{
+
+    .title-image {
+        width: 58vw;
+    }
+
+    #title-row {
         padding-top: 100px;
         padding-left: 70px;
         padding-bottom: 50px;
     }
-    
-    .profile-pic {
-        width:40%;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
 
-    .about-info{
-        background-color: #3F72AF ;
+    .about-info {
+        background-color: #3F72AF;
         margin-left: 50px;
         margin-right: 50px;
         padding-top: 50px;
         padding-bottom: 50px;
-        padding-left:20px;
+        padding-left: 20px;
         padding-right: 20px;
         border-top-left-radius: 40px;
         border-bottom-right-radius: 40px;
@@ -192,17 +222,20 @@ form button{
         font-size: 20px;
         color: white;
     }
+
     #projects {
         background-color: purple;
         height: 450px;
     }
-    .project-pic{
+
+    .project-pic {
         width: 65%;
         height: 65%;
         object-fit: contain;
         border-radius: 20px;
     }
-    form{
+
+    form {
         background-color: #C3F8FF;
         display: flex;
         flex-direction: column;
@@ -211,13 +244,15 @@ form button{
         margin-left: 40px;
         margin-right: 40px;
     }
-    form input,form textarea{
+
+    form input,
+    form textarea {
         border: 0;
 
         padding: 20px;
-        outline:none;
+        outline: none;
         font-size: 16px;
-        background-color:  white;
+        background-color: white;
         border-radius: 10px;
     }
 }
